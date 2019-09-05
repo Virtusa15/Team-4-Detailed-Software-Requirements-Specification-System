@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<div class="jumbotron text-center">
+  <h1>Update Page</h1>
+</div>
+<form name="form" action="UpdateServlet" method="post">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="eid" type="text" class="form-control" name="eid" placeholder="enter ur id">
+    </div>
+	<br/>
+	 <div class="input-group">
+    <label for="Employee Name"></label>
+	 <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+    <input type="text" class="form-control" name="Design" id="Design" placeholder="Design">
+  </div>
+  <br/>
+   <div class="input-group">
+	 <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+      <textarea class="form-control" rows="8" id="question" name="question" placeholder="Enter ur question"></textarea>
+	  </div>
+	  <br/>
+	  
+  <button type="submit" class="btn btn-primary center-block">Update</button>
+</form>
+</body>
+</html>

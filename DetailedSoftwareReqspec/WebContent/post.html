@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Post ur answer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="jumbotron text-center">
+  <h1>Post ur answer</h1>
+</div>
+<form name="form1" action="PostServlet" method="post">
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="pid" type="text" class="form-control" name="pid" placeholder="enter ur id">
+    </div>
+	<br/>
+	 <div class="input-group">
+	 <span class="input-group-addon"><i class="	glyphicon glyphicon-edit"></i></span>
+      <textarea class="form-control" rows="8" id="qpid" name="qpid" placeholder="post an answer"></textarea>
+	  </div>
+	  <br></br>
+	   <div>
+  <button type="submit" class="btn btn-primary center-block">post</button>
+  </div>
+	  </form>
+</body>
+</html>

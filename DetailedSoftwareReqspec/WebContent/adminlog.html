@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+   <title>Admin login</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="login-box">
+<div class="text-center">
+  <h1>Admin Login</h1>
+</div>
+<form name="form" action="AdminServlet" method="post">
+    <div class="textbox">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="aid" type="text" class="form-control" name="aid" placeholder="enter ur id">
+    </div>
+	<br/>
+  <div class="textbox">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="pass" type="password" class="form-control" name="pass" placeholder="Password">
+    </div>
+	<br>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-primary center-block" value="submit">Submit</button>
+  </div>
+</form>
+</body>
+</html>
